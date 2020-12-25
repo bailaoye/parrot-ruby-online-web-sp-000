@@ -2,7 +2,7 @@
 # returns the phrase
 
 def parrot(phrase = "Squawk!")
-  if phrase
+  phrase ? phrase
     puts phrase
     phrase
   else
