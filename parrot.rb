@@ -5,5 +5,6 @@ def parrot(phrase = "Squawk!")
   if phrase
     puts phrase
   else
-  puts "Squawk!"
+    puts "Squawk!"
+  end
 end
